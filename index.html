@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+  background-color: bisque;
+  margin-left: 25%;
+}
+    .container{
+      display:flex;
+      background-color: bisque;
+      flex-direction:column;
+      margin:100px auto;
+      border-radius: 10px;
+      margin-left: 10px;
+      width: 800px;
+      height:1200px; 
+    }
+    .flex1{
+            display:flex;
+            background-color:rgb(245, 239, 239);
+            border-radius: 10px 10px 0px 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    }
+    .container1{
+         display: flex;
+         
+         background-color: bisque;
+    }
+    .flex2{
+            display:flex;
+            background-color: rgb(72, 129, 235);
+            border-radius: 0px 0px 0px 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+    }
+    .flex3{
+            display:flex;
+            background-color: rgb(135, 135, 219);
+            border-radius: 0px 0px 10px 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+    }
+    @media only screen and (max-width:375px) {
+  /* For mobile phones: */
+  .container , .flex1 , .container1 , .flex2 .flex3 {
+    width:100%;
+    
+  }
+}
+@media only screen and (max-width:500px) {
+ 
+  .container , .flex1 , .container1 , .flex2 ,.flex3 {
+    width:380px;
+    
+    text-align:center;
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flex1">
+  <p style="color:blue; font-size:30px;"><b>Join our community</b></p>
+
+ <p style="color:red; font-size:24px;"> 30-day, hassle-free money back guarantee
+<p style="width:400px;">
+  Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.
+</div>
+  <div class="container1">
+    <div class="flex2">
+ <p style="font-size:22px;"> Monthly Subscription
+
+  <p style="font-size:20px;"><b>&dollar;29 </b>per month
+
+ <p> Full access for less than &dollar;1 a day
+
+ <p><button style="width:150px; height:40px; background-color:yellow; border-radius:10px; font-size:16px; "><b> Sign Up</b></button>
+ </div>
+ <div class="flex3">
+  <p style="font-size:20px;"><b>Why Us</b></p>
+<p style="width:200px;">
+  Tutorials by industry experts
+  Peer &amp; expert code review
+  Coding exercises
+  Access to our GitHub repos
+  Community forum
+  Flashcard decks
+  New videos every week
+  </p>
+  </div>
+</div>
+</div>
+ <!__ "footer"
+    "p class="attribution""
+     Challenge by "a href="https://www.frontendmentor.io?ref=challenge" target="_blank""Frontend Mentor</a". 
+      Coded by "a href="#""Your Name Here"/a".
+    "/p"
+  "/footer" __>
+</body>
+</html>
